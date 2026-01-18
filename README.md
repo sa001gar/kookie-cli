@@ -59,16 +59,24 @@ Kookie is designed for developers who want:
 
 ## Installation
 
-### Quick Install (Recommended)
+### Install from crates.io (Easiest)
 
-Download `kookie.exe` (or build from source), then run:
+```bash
+cargo install kookie
+```
+
+That's it! Kookie is now available globally.
+
+### Download Binary
+
+Download `kookie.exe` from [Releases](https://github.com/sa001gar/kookie-cli/releases), then run:
 
 ```bash
 # Self-install: copies to system location and adds to PATH
 kookie install
 ```
 
-That's it! Restart your terminal and `kookie` will be available globally.
+Restart your terminal and `kookie` will be available globally.
 
 ### Build from Source
 
