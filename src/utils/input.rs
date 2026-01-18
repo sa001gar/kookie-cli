@@ -70,6 +70,7 @@ pub fn prompt_new_password(prompt: &str) -> io::Result<String> {
 }
 
 /// Prompts for a number
+#[allow(dead_code)]
 pub fn prompt_number(prompt: &str, default: Option<u32>) -> io::Result<u32> {
     loop {
         let default_str = default.map(|d| format!(" [{}]", d)).unwrap_or_default();

@@ -6,6 +6,7 @@ use uuid::Uuid;
 
 /// All supported secret types
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
+#[allow(dead_code)]
 pub enum SecretType {
     Password,
     ApiKey,

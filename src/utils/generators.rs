@@ -16,6 +16,7 @@ pub fn generate_jwt_secret() -> String {
 }
 
 /// Generates a random key suitable for encryption (256 bits)
+#[allow(dead_code)]
 pub fn generate_encryption_key() -> String {
     generate_random_key(32)
 }

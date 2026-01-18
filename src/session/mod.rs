@@ -2,4 +2,4 @@
 
 pub mod cache;
 
-pub use cache::{clear_session, get_cached_key, save_session, SessionConfig};
+pub use cache::save_session;

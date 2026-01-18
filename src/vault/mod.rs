@@ -132,11 +132,13 @@ impl Vault {
     }
 
     /// Checks if vault is unlocked
+    #[allow(dead_code)]
     pub fn is_unlocked(&self) -> bool {
         self.key.is_some()
     }
 
     /// Locks the vault (clears key from memory)
+    #[allow(dead_code)]
     pub fn lock(&mut self) {
         self.key = None;
     }
