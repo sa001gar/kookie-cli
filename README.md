@@ -74,7 +74,7 @@ That's it! Restart your terminal and `kookie` will be available globally.
 
 ```bash
 # Clone and build
-git clone https://github.com/yourusername/kookie-cli
+git clone https://github.com/sa001gar/kookie-cli
 cd kookie-cli
 cargo build --release
 
