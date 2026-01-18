@@ -256,12 +256,41 @@ Kookie is built with a modular architecture:
 
 ---
 
+## Contributing
+
+Contributions are welcome! Feel free to:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## Author
+
+**Sagar Kundu**  
+GitHub: [@sa001gar](https://github.com/sa001gar)
+
+---
+
 ## License
 
-MIT License
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
+
+You are free to use, modify, and distribute this software for personal or commercial purposes.
 
 ---
 
 <p align="center">
-  Made with purpose. Built with Rust.
+  <strong>Made with purpose. Built with Rust. 🦀</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/sa001gar/kookie-cli">GitHub</a> •
+  <a href="https://crates.io/crates/kookie">crates.io</a> •
+  <a href="https://github.com/sa001gar/kookie-cli/issues">Issues</a>
 </p>
